@@ -1,0 +1,14 @@
+Probando la cadena '111001'
+
+q0: 111001
+q0: 11001
+q0: 1001
+q0: 001
+		q1: 01
+		Rechazada 
+q0: 01
+		q1: 1
+		q2: 1
+
+Cadena Aceptada.
+Camino de la ruta aceptada: ['q0', 'q0', 'q0', 'q0', 'q0', 'q1', 'q2']

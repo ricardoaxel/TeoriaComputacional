@@ -1,0 +1,10 @@
+﻿Prácticas
+1.py ( Combinaciones Binarias {1,0}^n ) / Texto: datos1.txt
+2.py ( Generador de números primos ) / Texto: datos2.txt
+
+Automatas
+3.py ( Paridad binaria ) / Texto: datos3.txt
+4.py ( Protocolo ) / Texto: datos4.txt 
+5.py ( Terminación 01 ) / Texto: Datos5.txt 
+6.py ( Reconocedor de palabras ) / Texto: datos6.txt 
+7.py ( Ajedrez ) / Texto: datos7.txt (incompleto)

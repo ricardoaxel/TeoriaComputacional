@@ -1,0 +1,13 @@
+Se paso del estado q0 al q1 
+Se paso del estado q3 al q0 
+Se paso del estado q0 al q1 
+Se paso del estado q3 al q0 
+Se paso del estado q0 al q1 
+Se paso del estado q1 al q2 
+Se paso del estado q2 al q1 
+Se paso del estado q1 al q0 
+Se paso del estado q0 al q1 
+Se paso del estado q3 al q2 
+Se paso del estado q2 al q1 
+Se paso del estado q1 al q2 
+Se paso del estado q2 al q3 
