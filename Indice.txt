@@ -1,10 +1,15 @@
-﻿Prácticas
+﻿PRIMER PARCIAL
 1.py ( Combinaciones Binarias {1,0}^n ) / Texto: datos1.txt
 2.py ( Generador de números primos ) / Texto: datos2.txt
-
-Automatas
 3.py ( Paridad binaria ) / Texto: datos3.txt
 4.py ( Protocolo ) / Texto: datos4.txt 
 5.py ( Terminación 01 ) / Texto: Datos5.txt 
 6.py ( Reconocedor de palabras ) / Texto: datos6.txt 
 7.py ( Ajedrez ) / Texto: datos7.txt (incompleto)
+
+SEGUNDO PARCIAL
+8.py  ( Expresión Regular a Autómata ) / Texto: Datos8.txt
+9.py  ( Autómata de Pila, Número par de 1's y 0's ) / Texto: Datos9.txt
+10.py ( Generador de Palíndromos ) / Texto: Datos10.txt
+11.py ( Arbol de Derivaciones, Balanceo de paréntesis) / Texto: Datos11.txt
+12.py ( Maquina de Turing ) / Texto: Datos12.txt

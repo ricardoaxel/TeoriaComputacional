@@ -5,6 +5,8 @@ import random
 sys.setrecursionlimit(1000)
 from tkinter import*
 
+archivo = open("Datos9.txt", "w")
+
 class Pila(object):
 	
 	def __init__(self):
@@ -27,22 +29,22 @@ class Pila(object):
 
 
 
-
-print("Cadenas numero par de 0 y 1 \n 1)Modo manual. 2)Modo automatico")
+print("Cadenas numero par de 1 y 0 \n 1)Modo manual. 2)Modo automatico")
+archivo.write("Cadenas numero par de 1 y 0 \n 1)Modo manual. 2)Modo automatico")
 opc = input()
 
 if (opc=="1"):
 	cad = input("Cadena a evaluar:\n") #cadena a evaluar
+	archivo.write("Cadena a evaluar: \n")
 
 else:
 	rand = random.randrange(10000)
 	cad = str(bin(rand)[2:])
 	print("Cadena generada:", cad)
+	archivo.write("\n Cadena generada:"+cad)
 cadc = cad[::-1] #cadena invertida para meterla a la pila
 
 p = Pila()
-
-
 
 
 
@@ -86,6 +88,7 @@ for i in cadc:
 		cuenta = cuenta + 1
 		p.push("X")
 		print(p.arreglo)
+		archivo.write("\n"+str(p.arreglo))
 		aux1= aux1+1
 		e = "c"
 
@@ -100,7 +103,7 @@ for i in cadc:
 
 		p.push(i)
 		print(p.arreglo)
-
+		archivo.write("\n"+str(p.arreglo))
 		#grafico
 		canv.create_rectangle(300, 500-conta*25, 400, 550-conta*25, width=1, fill='blue', outline='white')
 		conta= conta+1
@@ -112,17 +115,20 @@ for i in cadc:
 		e = "c"
 		p.push("X")
 		print(p.arreglo)
+		archivo.write("\n"+str(p.arreglo))
 		continue
 
 	if(i=="0" and e == "c"):
 		p.push("X")
 		print(p.arreglo)
+		archivo.write("\n"+str(p.arreglo))
 
 		continue
 
 	if(i=="1" and e =="c"):
 		p.push("X")
 		print(p.arreglo)
+		archivo.write("\n"+str(p.arreglo))
 
 		canv.create_rectangle(300, 500-conterr*25, 400, 550-conterr*25, width=1, fill='red', outline='white')
 		conterr= conterr+1
@@ -134,6 +140,7 @@ for i in cadc:
 		e="b"
 		p.pop()
 		print(p.arreglo)
+		archivo.write("\n"+str(p.arreglo))
 		aux1= aux1+1
 
 		#grafico
@@ -145,6 +152,7 @@ for i in cadc:
 	if(i=="1" and len(p.arreglo)<aux1):
 		p.push("X")
 		print(p.arreglo)
+		archivo.write("\n"+str(p.arreglo))
 		aux1= aux1+1
 
 		#grafico
@@ -157,6 +165,7 @@ for i in cadc:
 	if(i=="1" and e=="b"):
 		p.pop()
 		print(p.arreglo)
+		archivo.write("\n"+str(p.arreglo))
 
 
 		#grafico
@@ -165,17 +174,19 @@ for i in cadc:
 		contb = contb + 1	
 		continue
 
-	print("\n")
-	print(p.arreglo)
+	print("\n"+str(p.arreglo))
+	archivo.write("\n"+str(p.arreglo))
 
 a=len(p.arreglo)
 if(a==0):
 	print("Cadena válida")
+	archivo.write("\nCadena válida")
 	o= Label(ventana,text="Cadena VALIDA :D!").place(x=500,y=300)
 	canv.create_rectangle(300, 50, 400, 550, width=0, fill='green')
 
 else:
 	print("Cadena inválida")
+	archivo.write("\nCadena inválida")
 	o= Label(ventana,text="Cadena INVALIDA :(").place(x=500,y=300)
 	canv.create_rectangle(300, 50, 400, 550, width=0, fill='red')
 

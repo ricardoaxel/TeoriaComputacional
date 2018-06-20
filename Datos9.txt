@@ -1,0 +1,15 @@
+Cadenas numero par de 1 y 0 
+ 1)Modo manual. 2)Modo automatico
+ Cadena generada:101010100001
+['X']
+['X', 'X']
+['X', 'X', 'X']
+['X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X']
+['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X']

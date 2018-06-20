@@ -1,5 +1,4 @@
 #RECONOCIMIENTO CADENAS TERMINACION 01
-
 import threading
 import random
 from tkinter import*
